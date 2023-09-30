@@ -1,3 +1,7 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 nav {
   width: 100vw;
@@ -43,8 +47,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  position: fixed;
-  width: 100%;
+  width: 100vw;
 }
 
 .section {
@@ -140,4 +143,226 @@ nav {
   height: 20px;
   top: 470px;
   left: 180px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: hug (2, 788px);
+  top: 718px;
+  padding: 114px, 24px, 114px, 24px;
+  gap: 88px;
+  margin: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 327px;
+  height: hug (552px);
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px;
+  gap: 12px;
+}
+
+.card img {
+  width: 295px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-block {
+  width: hug (295px);
+  height: hug (288px);
+  gap: 12px;
+}
+
+.card-primary-text {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.canopy-text {
+  width: hug (236px);
+  height: hug (32px);
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.canopy {
+  width: hug (55px);
+  height: hug (32px);
+  padding: 8px, 0, 8px, 0;
+}
+
+.canopy p {
+  width: 55px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.canopy-text img {
+  width: 8px;
+  height: 8px;
+}
+
+.back-end-dev {
+  width: hug (88px);
+  height: hug (32px);
+  padding: 8px, 0, 8px, 0;
+}
+
+.back-end-dev p {
+  width: 88px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7a869a;
+}
+
+.year-label {
+  width: hug (29px);
+  height: hug (32px);
+  padding: 8px, 0, 8px, 0;
+}
+
+.year-label p {
+  width: 29px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7a869a;
+}
+
+.primarytext-2 {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.tags {
+  width: hug (214px);
+  height: hug (24px);
+  gap: 8px;
+  display: flex;
+}
+
+.tag-1 {
+  /* width: Hug (57px); */
+  height: hug (24px);
+  padding: 4px, 12px, 4px, 12px;
+  border-radius: 8px;
+  background: #ebebff;
+}
+
+.tag-1 p {
+  width: 33px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+}
+
+.tag-2 {
+  width: hug (49px);
+  height: hug (24px);
+  padding: 4px, 12px, 4px, 12px;
+  border-radius: 8px;
+  background: #ebebff;
+}
+
+.tag-2 p {
+  width: 25px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+}
+
+.tag-3 {
+  width: hug (92px);
+  height: hug (24px);
+  padding: 4px, 12px, 4px, 12px;
+  border-radius: 8px;
+  background: #ebebff;
+}
+
+.tag-3 p {
+  width: 68px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+}
+
+.action {
+  width: 140px;
+  height: 72px;
+  padding: 12px, 169px, 12px, 0;
+}
+
+.action-button {
+  width: hug (126px);
+  height: hug (48px);
+  margin-top: 12px;
+  border-radius: 8px;
+  gap: 10px;
+  color: #6070ff;
+  border: 1px solid #6070ff;
+}
+
+.action-button p {
+  width: 102px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #396df2;
 }
