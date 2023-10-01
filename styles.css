@@ -1,4 +1,4 @@
-html{
+html {
   width: 100%;
 }
 
@@ -461,7 +461,7 @@ nav {
 }
 
 .resume p {
-    width: 100%;
+  width: 100%;
   height: 24px;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -567,24 +567,23 @@ nav {
   top: 71px;
 }
 
-.form{
+.form {
   display: flex;
   width: 375px;
   height: 779px;
   margin: auto;
   background-image: url('contact\ form\ shapes-mobile.svg');
-  background-color: #6070FF;
+  background-color: #6070ff;
   background-repeat: no-repeat;
   background-position: center right;
 }
 
-.p-text{
+.p-text {
   display: flex;
   flex-direction: column;
-  
 }
 
-.p-text h1{
+.p-text h1 {
   position: relative;
   font-family: 'Poppins', sans-serif;
   font-size: 44px;
@@ -593,7 +592,8 @@ nav {
   align-self: center;
   top: 68px;
 }
-.p-text p{
+
+.p-text p {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: white;
@@ -601,145 +601,131 @@ nav {
   font-weight: 400;
   position: relative;
   top: 28px;
-  text-align:center;
-  
+  text-align: center;
 }
 
-form{
+form {
   width: 312px;
   height: 779px;
   top: 5410px;
-  background: #6070FF;
+  background: #6070ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contact-me {
+  width: 375px;
+  height: 779px;
+  top: 5410px;
+  background: #6070ff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 
-.contact-me{
-    width: 375px;
-  height: 779px;
-  top: 5410px;
-  background: #6070FF;
+.contact-me-background {
+  background-image: url(contact\ form\ shapes-mobile@2x.png);
+  width: 265px;
+  height: 709.17px;
+  top: 4652px;
+  left: 153px;
+}
+
+.contact-me-section {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  }
-  
-  
-  .contact-me-background{
-    background-image: url(contact\ form\ shapes-mobile@2x.png);
-  width: 265px;
-    height: 709.17px;
-    top: 4652px;
-    left: 153px;
-  
-  }
-  
-  .contact-me-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-me-primary-text{
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me-primary-text {
   height: 12px;
   padding-top: 86px;
   left: -213px;
-  
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  
-  color: #FFFFFF;
-  
-  }
-  
-  .contact-me-secondary-text{
-    
-    width: 327px;
-    height: 137px;
-    top: 4802px;
-    left: 24px;
-  
-    font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.contact-me-secondary-text {
+  width: 327px;
+  height: 137px;
+  top: 4802px;
+  left: 24px;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #EBEBFF;
-  
-  
-    
-  }
-  
-  .name-input{
-    width: 327px;
+  color: #ebebff;
+}
+
+.name-input {
+  width: 327px;
   height: 48px;
   top: 4991px;
   left: 24px;
-  
-  }
-  
-  .input-forms{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: flex-start;
-    padding-left: 25px;
-  }
-  
-  .name-input-2{
-    width: 327px;
+}
+
+.input-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 25px;
+}
+
+.name-input-2 {
+  width: 327px;
   height: 48px;
   top: 5059px;
   left: 24px;
   margin-top: 30px;
   margin-bottom: 30px;
-  
-  }
-  
-  .name-input input{
-    width:100%;
-    height:100%;
-    margin-bottom: 30px;
-    border-radius: 18px;
-    border: none;
-    padding-left: 5px;
-  }
-  
-  .name-input-2 input{
-    width:100%;
-    height:100%;
-    border-radius: 18px;
-    border: none;
-    padding-left: 5px;
-  }
-  
-  .name-input-3{
-    width: 327px;
-    height: 170px;
-  
-  }
-  
-  .name-input-3 textarea{
-    width: 100%;
-    height:100%;
-    border-radius: 18px;
-    border: none;
-    padding-top: 20px;
-    padding-left: 5px;
-  }
-  
-  .input-forms button{
-    margin-top: 30px;
-    border-radius: 8px;
-    border: none;
+}
+
+.name-input input {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  border-radius: 18px;
+  border: none;
+  padding-left: 5px;
+}
+
+.name-input-2 input {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  border: none;
+  padding-left: 5px;
+}
+
+.name-input-3 {
+  width: 327px;
+  height: 170px;
+}
+
+.name-input-3 textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  border: none;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.input-forms button {
+  margin-top: 30px;
+  border-radius: 8px;
+  border: none;
   height: 35px;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -747,10 +733,9 @@ form{
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #6070FF;
-  width:142px;
-  background: #FFFFFF;
+  color: #6070ff;
+  width: 142px;
+  background: #fff;
   padding: 5px 5px;
   padding-bottom: 5px;
-  
-  }
+}
