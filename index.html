@@ -257,16 +257,26 @@
             </div>
         </div>
         <div class="form">
-            <section class="p-text">
-              <h1>Contact me</h1>
-              <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-                I’d love to help with it!</p>
-            </section>
-            <form class="form-fields">
-                <input type="text">
-
-            </form>
+            <div class="contact-me-section">
+                <h3 class="contact-me-primary-text">Contact me</h3>
+                <p class="contact-me-secondary-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
+                <form action="/my-handling-form-page" method="post" class="input-forms">
+                  <section class="name-input">
+                    <input type="text" id="name" name="user_name" placeholder="Name"/>
+                  </section>
+                  <section class="name-input-2">
+                    <input type="email" id="mail" name="user_email" placeholder="Email"/>
+                  </section>
+                  <section class="name-input-3">
+                    <textarea id="msg" name="user_message" placeholder="Write your message here"></textarea>
+                  </section>
+      
+                  <button>Get in Touch</button>
+                  
+                </form>
+              </div>
         </div>
-    </div>
+
+            
 </body>
 </html>
