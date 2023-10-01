@@ -1,3 +1,7 @@
+html{
+  width: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -560,4 +564,49 @@ nav {
   width: 327px;
   height: 1px;
   top: 71px;
+}
+
+.form{
+  display: flex;
+  width: 375px;
+  height: 779px;
+  margin: auto;
+  background-image: url('contact\ form\ shapes-mobile.svg');
+  background-color: #6070FF;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.p-text{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.p-text h1{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  color: white;
+  font-weight: 700;
+  align-self: center;
+  top: 68px;
+}
+.p-text p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  top: 28px;
+  text-align:center;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 170px;
 }
